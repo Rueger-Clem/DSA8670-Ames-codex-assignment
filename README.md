@@ -22,7 +22,7 @@ I am interested in this question because I want to understand how property value
 
 \## Codex Session Date
 
-\[Fill in after your session, e.g., 2026-10-\_\_]
+\[Fill in after session as needed, e.g., 2026-10-\_\_]
 
 
 

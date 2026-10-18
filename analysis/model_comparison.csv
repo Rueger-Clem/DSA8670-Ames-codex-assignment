@@ -1,0 +1,3 @@
+model,n,r_squared,adjusted_r_squared,aic,purpose
+Linear interaction (primary),2930,0.6763947938914804,0.6703166439332682,71268.07913272509,Neighborhood-specific linear slopes; HC3 robust inference
+Quadratic interaction (sensitivity),2930,0.6978083817900405,0.6893228326651557,71119.48266108987,Allows curvature in lot area; exploratory sensitivity check

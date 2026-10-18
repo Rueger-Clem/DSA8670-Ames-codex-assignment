@@ -1,0 +1,52 @@
+{
+  "source_rows": 2930,
+  "source_columns": 82,
+  "analysis_complete_case_rows": 2930,
+  "valid_positive_analysis_rows": 2930,
+  "excluded_missing_required": 0,
+  "missing_required": {
+    "Lot Area": 0,
+    "SalePrice": 0,
+    "Neighborhood": 0
+  },
+  "invalid_nonpositive_lot_area": 0,
+  "invalid_nonpositive_sale_price": 0,
+  "exact_duplicate_rows": 0,
+  "iqr_outlier_flags_retained": {
+    "Lot Area": 127,
+    "SalePrice": 137
+  },
+  "neighborhood_count": 28,
+  "small_neighborhoods_n_lt_20": [
+    {
+      "Neighborhood": "Blueste",
+      "n": 10
+    },
+    {
+      "Neighborhood": "Greens",
+      "n": 8
+    },
+    {
+      "Neighborhood": "GrnHill",
+      "n": 2
+    },
+    {
+      "Neighborhood": "Landmrk",
+      "n": 1
+    }
+  ],
+  "interaction_model_r_squared": 0.6763947938914804,
+  "interaction_model_adj_r_squared": 0.6703166439332682,
+  "interaction_model_f_pvalue": 0.0,
+  "interaction_model_base_neighborhood": "Blmngtn",
+  "neighborhood_slope_interaction_wald_pvalue": 4.500227186538198e-97,
+  "log_sale_price_r_squared": 0.6536467882779489,
+  "quadratic_model_r_squared": 0.6978083817900405,
+  "quadratic_model_aic": 71119.48266108987,
+  "linear_model_aic": 71268.07913272509,
+  "quadratic_model_aic_lower_than_linear": true,
+  "main_model_cooks_distance_gt_4_over_n": 149,
+  "main_model_infinite_cooks_count": 1,
+  "main_model_max_finite_cooks_distance": 0.34769180940051714,
+  "interpretation": "Neighborhood-specific slope estimates are conditional linear associations in the analyzed sample; they are not causal effects."
+}
